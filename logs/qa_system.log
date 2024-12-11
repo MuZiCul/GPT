@@ -1,0 +1,29 @@
+import logging
+handler = logging.FileHandler('qa_system.log', encoding='utf-8')
+logger = logging.getLogger('qa_system')
+logger.addHandler(handler)
+
+2024-12-05 21:44:58,828 - qa_system - INFO - 数据表创建/确认成功
+2024-12-05 21:44:58,828 - qa_system.nlp_processor - INFO - 正在加载模型: paraphrase-multilingual-MiniLM-L12-v2
+2024-12-05 21:49:52,601 - qa_system - INFO - 数据表创建/确认成功
+2024-12-05 21:49:52,601 - qa_system.nlp_processor - INFO - 正在加载模型: paraphrase-multilingual-MiniLM-L12-v2
+2024-12-05 21:49:57,238 - qa_system.nlp_processor - INFO - 模型加载成功
+2024-12-05 21:49:57,238 - qa_system - INFO - 系统初始化成功
+2024-12-05 21:50:25,465 - qa_system - INFO - 收到问题: 什么是ai
+2024-12-05 21:50:25,465 - qa_system - INFO - 从数据库获取到 5 条问答对
+2024-12-05 21:50:25,465 - qa_system - INFO - 从数据库获取到 5 条问答对
+2024-12-05 21:50:25,507 - qa_system.nlp_processor - INFO - 查询问题: 什么是ai
+2024-12-05 21:50:25,507 - qa_system.nlp_processor - INFO - 候选答案数量: 5
+2024-12-05 21:50:25,509 - qa_system.nlp_processor - INFO - 问题: 人工智能是什么？, 相似度: 0.7839306903800891
+2024-12-05 21:50:25,509 - qa_system.nlp_processor - INFO - 找到更好的匹配: 人工智能是什么？ (0.7839306903800891)
+2024-12-05 21:50:25,509 - qa_system.nlp_processor - INFO - 问题: 什么是机器学习？, 相似度: 0.24874238352549807
+2024-12-05 21:50:25,510 - qa_system.nlp_processor - INFO - 问题: Python是什么编程语言？, 相似度: 0.26719692845782
+2024-12-05 21:50:25,511 - qa_system.nlp_processor - INFO - 问题: 深度学习是什么？, 相似度: 0.2571628013986627
+2024-12-05 21:50:25,511 - qa_system.nlp_processor - INFO - 问题: 什么是自然语言处理？, 相似度: 0.3761509465902272
+2024-12-05 21:50:25,511 - qa_system.nlp_processor - INFO - 最终选择的答案 (相似度: 0.7839306903800891): 人工智能是计算机科学的一个分支，致力于开发能够模拟人类智能的系统。它包括机器学习、深度学习、自然语言处理等领域。
+2024-12-05 21:50:25,511 - qa_system - INFO - 相似度: 0.7839306903800891, 答案: 人工智能是计算机科学的一个分支，致力于开发能够模拟人类智能的系统。它包括机器学习、深度学习、自然语言处理等领域。
+2024-12-05 21:50:25,512 - qa_system - INFO - 找到案 (相似度: 0.7839306903800891): 人工智能是计算机科学的一个分支，致力于开发能够模拟人类智能的系统。它包括机器学习、深度学习、自然语言处理等领域。
+2024-12-05 23:08:32,876 - qa_system - INFO - 数据表创建/确认成功
+2024-12-05 23:08:32,876 - qa_system.nlp_processor - INFO - 正在加载模型: paraphrase-multilingual-MiniLM-L12-v2
+2024-12-05 23:08:37,751 - qa_system.nlp_processor - INFO - 模型加载成功
+2024-12-05 23:08:37,751 - qa_system - INFO - 系统初始化成功
